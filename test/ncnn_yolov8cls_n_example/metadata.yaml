@@ -1,0 +1,20 @@
+description: Ultralytics YOLOv8n-cls model trained on D:\Dataset_Split
+author: Ultralytics
+date: '2026-02-12T22:29:09.533806'
+version: 8.4.7
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 1
+task: classify
+batch: 1
+imgsz:
+- 128
+- 128
+names:
+  0: supplies
+  1: transport
+  2: weapon
+args:
+  batch: 1
+  half: false
+channels: 3

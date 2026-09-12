@@ -1,0 +1,18 @@
+# 忽略 CMake 等工具的构建输出目录
+build/
+demo/build/
+*/build/
+
+# 忽略编译产生的二进制文件、对象文件等
+*.o
+*.a
+*.so
+*.out
+*.exe
+
+# 忽略特定IDE或编辑器产生的项目文件
+.vscode/
+.idea/
+
+# 忽略私人项目文件
+**/note.txt

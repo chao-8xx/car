@@ -1,0 +1,1 @@
+本文件夹存放开源库历程, 将xxxx_main.cc 修改为main.cc替换开源库中smartCar/main.cc即可
