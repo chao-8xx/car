@@ -1,0 +1,31 @@
+﻿# Python 缓存与本地工具
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.idea/
+
+# 本地照片与生成图像
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.webp
+
+# 大型数据集目录
+/crop_output_*/
+/manual_crop_dataset/
+/train/
+/val/
+/xianyu_balanced_redbox_64/
+/enhance/fenzu/
+/enhance/final/
+/enhance/final_all/
+/enhance/huafen/
+
+# 智能车源码副本和训练中间目录
+/run/
+/system/
+/test/
+/WuwuSama_Icar_Project/
+/int8/
+/exe/
